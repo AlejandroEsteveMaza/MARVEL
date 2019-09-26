@@ -1,0 +1,22 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":".\\scripts\\build.sh",
+    "deploy":"npm run build && .\\scripts\\deploy.sh",
+    "serve":"onchange .\\src\\**\\* -- npm run deploy"
+    
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "onchange": "^6.1.0"
+  }
+}
