@@ -1,4 +1,4 @@
-SPATH="C:/DAW/DAW/MARVEL/dist/*"
+SPATH="./dist/*"
 DPATH="C:/xampp/htdocs/MARVEL"
 
 
